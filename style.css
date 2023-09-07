@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Inter:wght@300;400;700&display=swap');
+body {
+    color: #ffffff;
+    font: 400 14px/18px 'Inter', sans-serif;
+    background-color: #162831;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li,
+ol li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+button {
+    display: block;
+    border: none;
+    color: inherit;
+    font: inherit;
+    background-color: transparent;
+    transition: .4s;
+    cursor: pointer;
+}
+.btn-primary {
+    padding: 9px 15px 9px 15px;
+    font: 400 13px/18px 'Inter', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #018ABE;
+}
+.btn-primary:hover {
+    background-color: #01688f;
+}
+.container {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+
+/*Header*/
+
+.header,
+.nav-main,
+.nav-main__list,
+.header-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.nav-main {
+    flex-grow: 1;
+}
+.nav-main__list {
+    gap: 50px;
+    font: 400 14px/19px 'Inter', sans-serif;
+}
+.nav-main__link_selected {
+    color: #ffffff;
+    cursor: default;
+    font-weight: 400;
+}
+.nav-main__link:hover {
+    color: #018ABE;
+}
+.header__logo,
+.footer__logo {
+    width: 60px;
+    height: 60px;
+}
+.header-action {
+    gap: 50px;
+    margin-left: 155px;
+}
+
+/*Banner*/
+
+#banner-section {
+    background: url("img/RitmStyle.png")100% 0%/cover no-repeat;
+    max-width: 100%;
+    width: 1296px;
+    height: 600px;
+
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 147px 0 158px;
+}
+.banner-info {
+    max-width: 530px;
+    text-align: center;
+}
+.banner__header {
+    font: 700 64px/89px 'El Messiri', sans-serif;
+    opacity: 0.9;
+}
+.banner__text {
+    margin: 32px 0 64px;
+    font-size: 24px;
+    line-height: 33px;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
