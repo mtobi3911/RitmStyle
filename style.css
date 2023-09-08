@@ -41,7 +41,7 @@ button {
     width: 100%;
     max-width: 1296px;
     margin: 0 auto;
-    padding: 0 75px;
+    padding: 0 10px;
 }
 
 /*Header*/
@@ -55,16 +55,12 @@ button {
     align-items: center;
     margin-top: 15px;
 }
-.nav-main {
-    flex-grow: 1;
-}
 .nav-main__list {
     gap: 50px;
     font: 400 14px/19px 'Inter', sans-serif;
 }
 .nav-main__link_selected {
     color: #ffffff;
-    cursor: default;
     font-weight: 400;
 }
 .nav-main__link:hover {
@@ -75,20 +71,19 @@ button {
     width: 60px;
     height: 60px;
 }
-.header-action {
-    gap: 50px;
-    margin-left: 155px;
-}
 
 /*Banner*/
 
 .banner__img {
     background: url("img/RitmStyle.png")100% 0%/cover no-repeat;
     height: 600px;
+    border-radius: 10px;
+
 }
 .banner {
+    display: flex;
+    justify-content: center;
     margin-top: 55px;
-    padding-left: 30%;
     padding-top: 100px;
 
 }
